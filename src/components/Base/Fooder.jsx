@@ -8,12 +8,12 @@ import React from 'react'
 const Fooder = () => {
   return (
   <>
-  <div className='flex flex-col'>
+  <div className='flex flex-col pt-10'>
     <div className="flex flex-row animate-bounce justify-center items-center">
         <a href="" target="_blank">
         <TiSocialGithubCircular />
         </a>
-        <a href="" target="_blank">
+        <a href="https://www.instagram.com/realarijiiiittttroyyy/" target="_blank">
         <TiSocialInstagramCircular />
         </a>
         <a href="" target="_blank">

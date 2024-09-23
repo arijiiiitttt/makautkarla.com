@@ -26,6 +26,16 @@ body {
   }
 }
 
+.no-visible-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+ 
+.no-visible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -105,4 +115,14 @@ body {
 }
 .oswal{
   font-family:Oswald,sans-serif;
+}
+
+@font-face {
+  font-family: 'PoppinsBlack';
+  font-weight: 900;
+  src: url(/public/Fonts/Poppins/Poppins-Black.ttf);
+}
+.popblack {
+  font-family: 'PoppinsBlack', sans-serif;
+  font-weight: 900;
 }
