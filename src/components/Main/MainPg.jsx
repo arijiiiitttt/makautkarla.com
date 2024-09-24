@@ -9,7 +9,7 @@ const MainPg = () => {
       <div className=" justify-center flex flex-col min-h-screen items-center md:pt-26 bg-white">
         <Baground />
       </div>
-    
+      <PageA />
       <Accordian />
 
     </>

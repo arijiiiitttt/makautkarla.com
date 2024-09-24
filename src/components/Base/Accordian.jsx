@@ -1,6 +1,5 @@
 "use client";
 
-
 import React, { useState } from 'react';
 import { IoMdAdd } from "react-icons/io";
 
@@ -31,6 +30,7 @@ const Accordian = () => {
                             <AccordionItem key={index} value={`item-${index + 1}`} className="shadow-sm w-[20rem] md:w-full rounded-lg mb-2 md:mb-4">
                                 <AccordionTrigger
                                     className="text-[10px] p-1 md:text-sm font-semibold md-1 md:p-2 w-full text-left text-black focus:outline-none no-underline bg-white rounded-lg transition duration-150 ease-in-out"
+                                    style={{ textDecoration: 'none' }}  
                                     onClick={() => handleToggle(index)}
                                 >
                                     {faq.question}
